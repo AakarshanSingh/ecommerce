@@ -14,12 +14,12 @@ const Wrapper = styled.div`
 
 const ImgContainer = styled.div`
   flex: 1;
+  display: flex;
+  justify-content: center;
 `;
 
 const Image = styled.img`
-  width: 100%;
   height: 90vh;
-  object-fit: cover;
 `;
 
 const InfoContainer = styled.div`
@@ -113,7 +113,7 @@ const Product = () => {
       <Navbar />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png" />
+          <Image src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18169424/2022/5/6/8c743b4d-1b6e-4194-886e-7f7f5482b1aa1651805675496WomensRayonFoilPrintedJjumpsuitWithOneSidePocket1.jpg" />
         </ImgContainer>
         <InfoContainer>
           <Title>Jump suit</Title>
